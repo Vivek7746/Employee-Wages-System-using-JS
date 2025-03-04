@@ -25,5 +25,4 @@ let empHrs = 0;
 let empCheck = Math.floor(Math.random() * 10) % 3;
 
 let empWage = getWorkingHours(empCheck);
-
 console.log("Employee's Wage: " + empWage);
